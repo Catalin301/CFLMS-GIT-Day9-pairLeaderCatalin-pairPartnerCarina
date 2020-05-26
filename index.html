@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+	
+		<html lang="en">
+
+<head>
+		
+	<meta charset="utf-8">
+
+<script type="text/javascript"src="script.js"></script>
+
+	<title>JavaScript</title>
+
+</head>
+
+<body>
+
+
+	
+	<script>
+
+		/*Beispeil 1*/
+
+		number=Math.floor(Math.random() * 25) -5; // returns a random integer from 1 to 100
+		console.log(number);
+
+		if(number >=-5 && number <=10){
+			console.log("The weather is cold");
+		}
+		else{
+			console.log( "The weather is moderate");
+		}
+
+
+
+		/*Beispiel 2*/
+
+		var grad=["1","7","-3","9"]
+
+		var temp=0;
+
+		for(var i=0; i<4;i++){
+			if(temp<grad[i]){
+
+				temp=grad[i]
+			}
+		}
+
+		console.log(temp + "is the highest number");
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
